@@ -9,3 +9,11 @@ version          "0.0.1"
 
 recipe           "python::2.6", ""
 recipe           "python::2.7", ""
+
+depends          "libbz2", ">= 0.0.1"
+depends          "libdb", ">= 0.0.1"
+depends          "libncursesw", ">= 0.0.1"
+depends          "libreadline", ">= 0.0.1"
+depends          "libsqlite", ">= 0.0.1"
+depends          "mime-support", ">= 0.0.1"
+depends          "python-minimal", ">= 0.0.1"
